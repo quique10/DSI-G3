@@ -1,0 +1,201 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+.page{
+  background-color: #5596e6; width : 100%; /*color del LOGO DEL HELPIT 4B5BB7*/
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #ffffff;
+
+	height: 100%;
+	margin: 0 auto;
+  text-align: center;
+
+}
+#waitingTable thead tr th,#waitingTable tbody tr td {
+  font-size:3em;
+}
+
+/*LOGIN*/
+.lala{
+	font-size: 1.5em;
+}
+.boton1{
+  margin-left: 10em;
+  margin-right: 10em;
+  width: 30%;
+}
+#titleW{
+	    margin-bottom: 3%;
+    height: 20%;
+}
+.queueList{
+  font-size: 3em;
+}
+input[type="text"], input[type="email"] {
+  width: 100%;
+  border: none;
+  padding: 0.5em;
+  border-radius: 2px;
+  margin-bottom: 0.5em;
+  color: #333;
+}
+#namell{
+	text-align: start;
+}
+#emaill{
+	text-align: start;
+}
+.login--username-container, .login--password-container {
+  float: left;
+  width: 50%;
+  height: 120px;
+  padding: 0.5em;
+}
+li {
+    list-style: decimal-leading-zero;
+    font-size: 1.5em;
+    margin: 0 0 0 2em;
+}
+
+#ho{
+		width: 100%;
+	}
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+    width: 20%;
+    height: 25%;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid rgb(30,205,151);
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  font: normal 20px "Advent Pro", Helvetica, sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0);
+  -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+}
+
+.enjoy-css:hover {
+  color: rgba(255,255,255,1);
+  background: rgb(30, 205, 151);
+}
+
+.enjoy-css:active {
+  border: 2px solid rgba(33,224,163,1);
+  background: rgba(33,224,163,1);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/*LOGIN*/
+
+#fotoWait{
+	height: 30em;
+	padding-left: 5em;
+}
+.fotoLogo{
+	height: 10em;
+}
+#footerinicial{
+	margin-top: 4em;
+}
+.footerBonito{
+	background-color: 	#ffffff /*{a-bar-background-color}*/;
+	border-color:	 		#ddd /*{a-bar-border}*/;
+	color: 					#333 /*{a-bar-color}*/;
+
+	font-weight: bold;
+	font-size: 15px;
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+   text-align: center;
+   /*height:3em;*/
+   font-size: 17px;
+   font-weight: bold;
+   vertical-align: middle;
+   color: #5596e6;
+   background-color: 			#ffffff /*{a-bar-background-color}*/;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+    font-size: 17px;
+}
+
+#ticketNumber{
+  text-align: center;
+}
+#ticketDiv{
+  margin: auto;
+width: 90%;
+}
+
+
+#tablesGrid .free{
+  background-color: lightgreen;
+  text-shadow: none;
+}
+#tablesGrid .busy{
+  background-color: red;
+  text-shadow: none;
+}
+
+.blink{
+  background-color: yellow;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 3s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.2; }
+    100% { opacity: 1.0; }
+}
